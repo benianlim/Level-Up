@@ -1,18 +1,6 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <style>
-.avatar {
-  vertical-align: right;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  float: right;
-  margin-top: 20px;
-  margin-right: 80px;
-}
-</style>
-
     <title>Free Education Template by Colorlib</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -31,8 +19,11 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    
-   <header role="banner">
+    <!-- Section: Products v.4 -->
+
+</section>
+<!-- Section: Products v.4 -->
+      <header role="banner">
      
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
@@ -65,7 +56,7 @@
             </ul>
             <ul class="navbar-nav absolute-right">
               <li>
-                <a href="Login.html">Login</a>
+               <a href="Login.html">Login</a>
               </li>
             </ul>
             
@@ -73,16 +64,15 @@
         </div>
       </nav>
     </header>
-    <!-- END header -->
-
+   
     <section class="site-hero site-sm-hero overlay" data-stellar-background-ratio="0.5" style="background-image: url(images/big_image_2.jpg);">
       <div class="container">
         <div class="row align-items-center justify-content-center site-hero-sm-inner">
           <div class="col-md-7 text-center">
   
             <div class="mb-5 element-animate">
-              <h1 class="mb-2">Register</h1>
-              <p class="bcrumb"><a href="index.html">Home</a> <span class="sep ion-android-arrow-dropright px-2"></span>  <span class="current">Register</span></p>
+              <h1 class="mb-2">Add Qualification</h1>
+              <p class="bcrumb"><a href="index.html">Home</a> <span class="sep ion-android-arrow-dropright px-2"></span>  <span class="current">Add Qualification</span></p>
             </div>
             
           </div>
@@ -92,162 +82,86 @@
     <!-- END section -->
     
     <section class="site-section">
-
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-7">
             <div class="form-wrap">
-              <h2 class="mb-5">Register new account</h2>
-
-              <div style="margin-bottom: 10px;">
-              <ul class="nav nav-pills">
-              <li class="nav-item">
-                <a class="nav-link " data-toggle="pill" href="#create-applicant">Applicant</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-toggle="pill"href="#create-admin">Admin</a>
-              </li>
-            </ul>
-            </div>
-
+              <h2 class="mb-5">Add New Qualification</h2>
               <form action="#" method="post">
-
-        <div class="tab-content form-content" >
-            <div id="create-applicant" class="tab-pane fade ">
-              <form data-toggle="validator" class="form-horizontal" id="create-applicant-form" action="create.php" method="POST">
-
-                  <fieldset class="form-group">
-
-                  <div class="row">
-                    <div class="col-md-12 form-group">
-                      <label for="name"> <i class="fa fa-user"></i> Full Name</label>
-                      <input type="text" id="name" class="form-control py-2" required>
-                    </div>
-                  </div>
-               
-                  <div class="row">
-                    <div class="col-md-12 form-group">
-                    <label for="name"> <i class="fa fa-user-o"></i> Username</label>
-                    <input type="text" id="name" class="form-control py-2" required>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-12 form-group">
-                      <label for="name"><i class="fa fa-lock"></i> Password</label>
-                      <input type="password" id="name" class="form-control py-2" required>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-12 form-group">
-                      <label for="name"><i class="fa fa-lock"></i> Re-type Password</label>
-                      <input type="password" id="name" class="form-control py-2 " required>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-12 form-group">
-                      <label for="name"> <i class="fa fa-envelope"></i> Email Address</label>
-                      <input type="Email" id="name" class="form-control py-2" required>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-12 form-group">
-                      <label for="name"><i class="fa fa-id-card"></i> IDType</label>
-                      <input type="text" id="name" class="form-control py-2" required>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-12 form-group">
-                      <label for="name"><i class="fa fa-id-card-o "></i> ID Number</label>
-                      <input type="text" id="name" class="form-control py-2" required>
-                    </div>
-                  </div>
-                  <div class="row mb-5">
-                    <div class="col-md-12 form-group">
-                      <label for="name"><i class="fa fa-birthday-cake"></i> Date of Birth</label>
-                      <input type="text" id="name" class="form-control py-2" required>
-                    </div>
-                  </div>
-                  
                   
                   <div class="row">
-                    <div class="col-md-6 form-group">
-                      <input type="submit" value="Register" class="btn btn-primary px-5 py-2">
+                    <div class="col-md-12 form-group">
+                      <label for="exampleFormControlInput1">Qualification Name</label>
+                      <input  type="text" class="form-control" id="exampleFormControlInput1" required>
                     </div>
                   </div>
-               </fieldset>
-            </form>
-          </div>
-
-               <div id="create-admin" class="tab-pane fade">
-            <form data-toggle="validator" class="form-horizontal" id="create-admin-form" action="create.php" method="POST">
-                <fieldset>
+                  <div class="row">
+                    <div class="col-md-12 form-group">
+                      <label for="minimum-score"> Minimum Score</label>
+                      <input id="minimum-score" class="form-control" name="minimum-score">
+                    </div>
+                  </div>
                    <div class="row">
                     <div class="col-md-12 form-group">
-                      <label for="name"> <i class="fa fa-user"></i> Full Name</label>
-                      <input type="text" id="name" class="form-control py-2" required>
-                    </div>
-                  </div>
-               
-                  <div class="row">
-                    <div class="col-md-12 form-group">
-                    <label for="name"> <i class="fa fa-user-o"></i> Username</label>
-                    <input type="text" id="name" class="form-control py-2" required>
+                      <label for="Maximum-score"> Maximum Score</label>
+                      <input id="Maximum-score" class="form-control" name="Maximum-score">
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-md-12 form-group">
-                      <label for="name"><i class="fa fa-lock"></i> Password</label>
-                      <input type="password" id="name" class="form-control py-2" required>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-12 form-group">
-                      <label for="name"><i class="fa fa-lock"></i> Re-type Password</label>
-                      <input type="password" id="name" class="form-control py-2 " required>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-12 form-group">
-                      <label for="name"> <i class="fa fa-envelope"></i> Email Address</label>
-                      <input type="Email" id="name" class="form-control py-2" required>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-12 form-group">
-                      <label for="name"><i class="fa fa-id-card"></i> IDType</label>
-                      <input type="text" id="name" class="form-control py-2" required>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-12 form-group">
-                      <label for="name"><i class="fa fa-id-card-o "></i> ID Number</label>
-                      <input type="text" id="name" class="form-control py-2" required>
+                       <label for="exampleFormControlSelect1">Grades</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                      <option disabled selected> Select...</option>
+                      <option> A (4.00)</option>
+                      <option> A- (3.67)</option>
+                      <option> B+ (3.33)</option>
+                      <option> B (3.00)</option>
+                      <option> B- (2.67)</option>
+                      <option> C+ (2.33)</option>
+                      <option> C (2.00)</option>
+                      <option> B+ (1.67)</option>
+                      <option> D+ (1.33)</option>
+                      <option> D (1.00)</option>
+                      <option> F (0.00)</option>
+                      <option> A – 5 points</option>
+                      <option> B – 4 points</option>
+                      <option> C – 3 points</option>
+                      <option> D - 2 points</option>
+                      <option> E – 1 point</option>
+                      <option> 0 – 100%</option>
+                      <option> 0 – 7 points per subject</option>
+                      <option> A1 – 1 points</option>
+                      <option> A2– 2 points</option>
+                      <option> B3 – 3 points</option>
+                      <option> B4 - 4 points</option>
+                      <option> B5 – 5 point</option>
+                      <option> B6 – 6 point</option>
+                      
+                    </select>
                     </div>
                   </div>
                   <div class="row mb-5">
                     <div class="col-md-12 form-group">
-                      <label for="name"><i class="fa fa-birthday-cake"></i> Date of Birth</label>
-                      <input type="text" id="name" class="form-control py-2" required>
+                      <label for="exampleFormControlTextarea1">Description</label>
+                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
                   </div>
-                  
                   
                   <div class="row">
                     <div class="col-md-6 form-group">
-                      <input type="submit" value="Register" class="btn btn-primary px-5 py-2">
+                      <input type="submit" value="Add" class="btn btn-primary px-5 py-2">
                     </div>
                   </div>
-                 </fieldset>
                 </form>
               </div>
-              
           </div>
         </div>
       </div>
     </section>
     
-     
-  <footer class="site-footer border-top">
+    
+   
+    <footer class="site-footer border-top">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
