@@ -32,7 +32,7 @@ if($result && mysqli_num_rows($result) > 0) {
 
   mysqli_close($con);
 
-  header('Location: add-qualification.html');
+  header("Location: add-qualification.html");
   }
 else {
   $sql = "INSERT INTO qualification (qualificationName, maximumScore, minimumScore, resultCalcDescription, gradeList)
@@ -42,10 +42,12 @@ else {
   echo 'alert("Qualification is successfully added.")';
   echo '</script>';
   mysqli_query($con, $sql);
+
+  mysqli_close($con);
+
+  header("Location: maintainQuals.php");
   }
 
-mysqli_close($con);
 
-header("Location: maintainQuals.php");
 
 ?>

@@ -11,9 +11,13 @@ if(!$con) {
 }
 echo "Connect success!" . "<br/><br/>";
 
-$universityName = $_POST['universityName'];
+$programmeName = $_POST['programmeName'];
+$description = $_POST['description'];
+$closingDate = date('Y-m-d', strtotime($_POST['closingDate']));
 
-$query = "SELECT universityName FROM university WHERE universityName = '$universityName'";
+
+
+/*$query = "SELECT username FROM user WHERE username = '$username'";
 $result = mysqli_query($con, $query);
 
 if($result && mysqli_num_rows($result) > 0) {
@@ -23,22 +27,20 @@ if($result && mysqli_num_rows($result) > 0) {
   echo '</script>';
   mysqli_close($con);
 
-  header("Location: addUni.html");
+  header("Location: add-admin.html");
   }
 else{
-  $sql = "INSERT INTO university (universityName)
-  values ('$universityName')";
+  $sql = "INSERT INTO user (username, password, name, email, userType)
+  values ('$username', '$password', '$name', '$email', 'University Admin')";
 
   echo '<script language="javascript">';
   echo 'alert("University is successfully added.")';
   echo '</script>';
   mysqli_query($con, $sql);
-
-  mysqli_close($con);
-
-  header("Location: add-admin.html");
   }
 
+mysqli_close($con);
 
+header("Location: index.html");
 
-?>
+?>*/
