@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Level Up" company="" webLink="http://" view-date="2019-03-13" view-index="0" gantt-divider-location="367" resource-divider-location="300" version="2.8.9" locale="en_MY">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="184" order="0"/>
+        <field id="tpd4" name="Begin date" width="73" order="1"/>
+        <field id="tpd5" name="End date" width="72" order="2"/>
+        <field id="tpd10" name="ID" width="19" order="3"/>
+        <option id="color.recent"><![CDATA[#66ff66]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Planning" color="#8cb6ce" meeting="false" start="2019-01-25" duration="6" complete="0" thirdDate="2019-02-08" thirdDate-constraint="0" expand="true">
+            <task id="2" name="Planning a Project Name" color="#8cb6ce" meeting="false" start="2019-01-25" duration="1" complete="0" thirdDate="2019-02-08" thirdDate-constraint="0" expand="true"/>
+            <task id="4" name="Identifying Project Aims and Objectives" color="#8cb6ce" meeting="false" start="2019-01-28" duration="1" complete="0" thirdDate="2019-02-08" thirdDate-constraint="0" expand="true"/>
+            <task id="6" name="Planning Project Schedule" color="#8cb6ce" meeting="false" start="2019-01-28" duration="2" complete="0" thirdDate="2019-02-08" thirdDate-constraint="0" expand="true"/>
+            <task id="7" name="Determining Development Platform" color="#8cb6ce" meeting="false" start="2019-01-29" duration="2" complete="0" thirdDate="2019-02-08" thirdDate-constraint="0" expand="true"/>
+            <task id="11" name="Identifying Risks" color="#8cb6ce" meeting="false" start="2019-01-31" duration="2" complete="0" thirdDate="2019-02-08" thirdDate-constraint="0" expand="true"/>
+            <task id="13" name="Finalizing Project Plan" color="#8cb6ce" meeting="false" start="2019-02-01" duration="1" complete="0" thirdDate="2019-02-08" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="18" name="Analyzing Requirements" color="#8cb6ce" meeting="false" start="2019-02-04" duration="6" complete="0" thirdDate="2019-02-08" thirdDate-constraint="0" expand="true">
+            <task id="20" name="Determining Functional and Non-functional Requirements" color="#8cb6ce" meeting="false" start="2019-02-04" duration="2" complete="0" thirdDate="2019-01-28" thirdDate-constraint="0" expand="true"/>
+            <task id="22" name="Determine Requirement Specifications" color="#8cb6ce" meeting="false" start="2019-02-06" duration="3" complete="0" thirdDate="2019-01-28" thirdDate-constraint="0" expand="true"/>
+            <task id="24" name="Finalizing Requirements" color="#8cb6ce" meeting="false" start="2019-02-08" duration="2" complete="0" thirdDate="2019-01-28" thirdDate-constraint="0" expand="true"/>
+            <task id="25" name="Documenting Requirements" color="#8cb6ce" meeting="false" start="2019-02-11" duration="1" complete="0" thirdDate="2019-01-28" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="26" name="Design Architecture" color="#8cb6ce" meeting="false" start="2019-02-18" duration="8" complete="0" thirdDate="2019-01-28" thirdDate-constraint="0" expand="true">
+            <task id="132" name="Design Sitemap and User Interface" color="#8cb6ce" meeting="false" start="2019-02-18" duration="3" complete="0" thirdDate="2019-01-31" thirdDate-constraint="0" expand="true"/>
+            <task id="31" name="Design Relational Database" color="#8cb6ce" meeting="false" start="2019-02-20" duration="3" complete="0" thirdDate="2019-01-28" thirdDate-constraint="0" expand="true"/>
+            <task id="56" name="Design Data Dictionary" color="#8cb6ce" meeting="false" start="2019-02-25" duration="2" complete="0" thirdDate="2019-01-28" thirdDate-constraint="0" expand="true"/>
+            <task id="58" name="Finalizing Design Specification" color="#8cb6ce" meeting="false" start="2019-02-26" duration="2" complete="0" thirdDate="2019-01-28" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="32" name="Implementing Prototype 1" color="#8cb6ce" meeting="false" start="2019-02-28" duration="11" complete="0" thirdDate="2019-01-28" thirdDate-constraint="0" expand="true">
+            <task id="34" name="Coding &amp; Unit Testing of Sign-Up SAS Admin" color="#8cb6ce" meeting="false" start="2019-02-28" duration="4" complete="0" thirdDate="2019-01-28" thirdDate-constraint="0" expand="true"/>
+            <task id="36" name="Coding &amp; Unit Testing Register University" color="#8cb6ce" meeting="false" start="2019-02-28" duration="7" complete="0" thirdDate="2019-01-28" thirdDate-constraint="0" expand="true"/>
+            <task id="37" name="Coding &amp; Unit Testing Set Up Qualification" color="#8cb6ce" meeting="false" start="2019-03-07" duration="3" complete="0" thirdDate="2019-01-28" thirdDate-constraint="0" expand="true"/>
+            <task id="40" name="Integration Testing" color="#8cb6ce" meeting="false" start="2019-03-08" duration="2" complete="0" thirdDate="2019-01-28" thirdDate-constraint="0" expand="true"/>
+            <task id="42" name="System Testing" color="#8cb6ce" meeting="false" start="2019-03-08" duration="2" complete="0" thirdDate="2019-01-28" thirdDate-constraint="0" expand="true"/>
+            <task id="44" name="Finalising Documentation" color="#8cb6ce" meeting="false" start="2019-03-08" duration="2" complete="0" thirdDate="2019-01-28" thirdDate-constraint="0" expand="true"/>
+            <task id="122" name="Presentation of Prototype 1" color="#8cb6ce" meeting="true" start="2019-03-15" duration="0" complete="0" thirdDate="2019-02-21" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="46" name="Implementing Prototype 2" color="#8cb6ce" meeting="false" start="2019-03-18" duration="16" complete="0" thirdDate="2019-01-28" thirdDate-constraint="0" expand="true">
+            <task id="49" name="Identifying Problems from Prototype 1" color="#8cb6ce" meeting="false" start="2019-03-18" duration="3" complete="0" thirdDate="2019-01-28" thirdDate-constraint="0" expand="true"/>
+            <task id="116" name="Solving the Problems from Prototype 1" color="#8cb6ce" meeting="false" start="2019-03-20" duration="4" complete="0" thirdDate="2019-02-21" thirdDate-constraint="0" expand="true"/>
+            <task id="145" name="Coding &amp; Unit Testing of Record Programme" color="#8cb6ce" meeting="false" start="2019-03-26" duration="5" complete="0" thirdDate="2019-01-28" thirdDate-constraint="0" expand="true"/>
+            <task id="51" name="Coding &amp; Unit Testing of Apply for Programme" color="#8cb6ce" meeting="false" start="2019-03-26" duration="5" complete="0" thirdDate="2019-01-28" thirdDate-constraint="0" expand="true"/>
+            <task id="53" name="Coding &amp; Unit Testing of Review Application" color="#8cb6ce" meeting="false" start="2019-03-28" duration="5" complete="0" thirdDate="2019-01-28" thirdDate-constraint="0" expand="true"/>
+            <task id="120" name="Integration Testing" color="#8cb6ce" meeting="false" start="2019-04-03" duration="2" complete="0" thirdDate="2019-02-21" thirdDate-constraint="0" expand="true"/>
+            <task id="125" name="System Testing" color="#8cb6ce" meeting="false" start="2019-04-04" duration="2" complete="0" thirdDate="2019-02-21" thirdDate-constraint="0" expand="true"/>
+            <task id="127" name="Finalising Documentation" color="#8cb6ce" meeting="false" start="2019-04-05" duration="2" complete="0" thirdDate="2019-02-21" thirdDate-constraint="0" expand="true"/>
+            <task id="129" name="Presentation of Prototype 2" color="#8cb6ce" meeting="true" start="2019-04-09" duration="0" complete="0" thirdDate="2019-02-21" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous>
+        <previous-tasks name="part 1">
+            <previous-task id="0" start="2019-01-25" duration="6" meeting="false" super="true"/>
+            <previous-task id="2" start="2019-01-25" duration="1" meeting="false" super="false"/>
+            <previous-task id="4" start="2019-01-28" duration="1" meeting="false" super="false"/>
+            <previous-task id="6" start="2019-01-28" duration="2" meeting="false" super="false"/>
+            <previous-task id="7" start="2019-01-29" duration="2" meeting="false" super="false"/>
+            <previous-task id="11" start="2019-01-31" duration="2" meeting="false" super="false"/>
+            <previous-task id="13" start="2019-02-01" duration="1" meeting="false" super="false"/>
+            <previous-task id="18" start="2019-02-04" duration="6" meeting="false" super="true"/>
+            <previous-task id="20" start="2019-02-04" duration="2" meeting="false" super="false"/>
+            <previous-task id="22" start="2019-02-06" duration="3" meeting="false" super="false"/>
+            <previous-task id="24" start="2019-02-08" duration="2" meeting="false" super="false"/>
+            <previous-task id="25" start="2019-02-11" duration="1" meeting="false" super="false"/>
+            <previous-task id="26" start="2019-02-18" duration="8" meeting="false" super="true"/>
+            <previous-task id="132" start="2019-02-18" duration="3" meeting="false" super="false"/>
+            <previous-task id="31" start="2019-02-20" duration="3" meeting="false" super="false"/>
+            <previous-task id="56" start="2019-02-25" duration="2" meeting="false" super="false"/>
+            <previous-task id="58" start="2019-02-26" duration="2" meeting="false" super="false"/>
+            <previous-task id="32" start="2019-02-28" duration="11" meeting="false" super="true"/>
+            <previous-task id="34" start="2019-02-28" duration="4" meeting="false" super="false"/>
+            <previous-task id="36" start="2019-02-28" duration="7" meeting="false" super="false"/>
+            <previous-task id="37" start="2019-03-07" duration="3" meeting="false" super="false"/>
+            <previous-task id="40" start="2019-03-08" duration="2" meeting="false" super="false"/>
+            <previous-task id="42" start="2019-03-08" duration="2" meeting="false" super="false"/>
+            <previous-task id="44" start="2019-03-08" duration="2" meeting="false" super="false"/>
+            <previous-task id="122" start="2019-03-15" duration="0" meeting="true" super="false"/>
+            <previous-task id="46" start="2019-03-15" duration="17" meeting="false" super="true"/>
+            <previous-task id="49" start="2019-03-15" duration="3" meeting="false" super="false"/>
+            <previous-task id="116" start="2019-03-18" duration="4" meeting="false" super="false"/>
+            <previous-task id="145" start="2019-03-19" duration="5" meeting="false" super="false"/>
+            <previous-task id="51" start="2019-03-19" duration="5" meeting="false" super="false"/>
+            <previous-task id="53" start="2019-03-25" duration="5" meeting="false" super="false"/>
+            <previous-task id="120" start="2019-03-29" duration="2" meeting="false" super="false"/>
+            <previous-task id="125" start="2019-04-02" duration="3" meeting="false" super="false"/>
+            <previous-task id="127" start="2019-04-05" duration="2" meeting="false" super="false"/>
+            <previous-task id="129" start="2019-04-09" duration="0" meeting="true" super="false"/>
+        </previous-tasks>
+    </previous>
+    <roles roleset-name="Default"/>
+</project>
